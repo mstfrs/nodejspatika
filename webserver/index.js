@@ -11,13 +11,10 @@ if (url==="/") {
 }else if(url==="/iletisim"){
     res.writeHead(200,{"Content-Type":"text/html"});
     res.write("<h1>İLETİŞİM SAYFASI</h1>")
-}
-else {
+}else {
     res.writeHead(404,{"Content-Type":"text/html"});
     res.write("<h1>404 HATA SAYFASI</h1>")
-}
-
-    
+}   
     res.end()
     
 })
